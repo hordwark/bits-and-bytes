@@ -1,11 +1,12 @@
 Button1 = : root : f.menu "menu"
 
 menu "menu" {
+"Twm" f.title
 "xterm" !"/bin/xterm &"
 "firefox" !"/bin/firefox &"
+"slock" !"/bin/slock &"
 "" f.nop
-"re" f.restart
-"lock" !"/bin/slock &"
+"restart" f.restart
 "quit" f.quit
 }
 
