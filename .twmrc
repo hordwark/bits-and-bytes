@@ -8,3 +8,9 @@ menu "menu" {
 "lock" !"/bin/slock &"
 "quit" f.quit
 }
+
+windowring {
+"xterm"
+}
+"Tab" = m : all : f.warpring "next"
+"Tab" = m : all : f.warpring "prev"
