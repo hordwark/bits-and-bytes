@@ -3,15 +3,10 @@ Button1 = : root : f.menu "menu"
 menu "menu" {
 "Twm" f.title
 "xterm" !"/bin/xterm &"
+"xclock" !"/bin/xclock &"
 "firefox" !"/bin/firefox &"
 "slock" !"/bin/slock &"
 "" f.nop
 "restart" f.restart
 "quit" f.quit
 }
-
-windowring {
-"xterm"
-}
-"Tab" = m : all : f.warpring "next"
-"Tab" = m : all : f.warpring "prev"
