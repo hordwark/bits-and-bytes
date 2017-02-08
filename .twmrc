@@ -1,0 +1,10 @@
+Button1 = : root : f.menu "menu"
+
+menu "menu" {
+"xterm" !"/bin/xterm &"
+"firefox" !"/bin/firefox &"
+"" f.nop
+"re" f.restart
+"lock" !"/bin/slock &"
+"quit" f.quit
+}
