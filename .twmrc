@@ -1,12 +1,20 @@
-Button1 = : root : f.menu "menu"
+NoTitleHighlight
+Button1 = : root : f.menu "Twm"
 
-menu "menu" {
-"Twm" f.title
+menu "Twm" {
 "xterm" !"/bin/xterm &"
-"xclock" !"/bin/xclock &"
 "firefox" !"/bin/firefox &"
 "slock" !"/bin/slock &"
 "" f.nop
 "restart" f.restart
-"quit" f.quit
 }
+
+Color {
+TitleBackground "Black"
+TitleForeground "White"
+MenuBackground "Black"
+MenuForeground "White"
+MenuBorderColor "White"
+BorderColor	"White"
+}
+
