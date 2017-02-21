@@ -1,0 +1,13 @@
+# 'ctrl + alt + BackSpace' already kills X
+
+super + Return
+	xterm
+
+super + Escape
+	slock
+
+alt + Tab
+	x-alt-tab
+
+alt + shift + Tab
+	x-alt-tab -1
